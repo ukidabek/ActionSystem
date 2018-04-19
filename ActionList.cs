@@ -14,6 +14,11 @@ namespace ActionsSystem
 		{
 			Perform(null);
 		}
+
+        public void Perform(object parametr)
+        {
+            Perform(parametr, null);
+        }
 		
 		public void Perform(params object[] parameters)
 		{
