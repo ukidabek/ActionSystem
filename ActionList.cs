@@ -19,7 +19,6 @@ namespace ActionsSystem
                     AsyncActionHandler.Instance.StartAction(item, parameters);
                 else
                     item.Perform(parameters);
-
             }
 		}
 	}
